@@ -1,0 +1,279 @@
+18:28:28.690 [main] INFO ktor.application - Autoreload is disabled because the development mode is off.
+18:28:31.024 [main] INFO ktor.application - Application started in 2.52 seconds.
+18:28:31.091 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+18:28:31.258 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+18:28:31.263 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+18:28:31.276 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+18:28:31.279 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+18:28:31.283 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+18:28:31.284 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+18:28:31.286 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+18:28:31.287 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+18:28:31.291 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9039d141
+18:28:31.294 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+18:28:31.294 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+18:28:31.328 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 999751680 bytes (maybe)
+18:28:31.336 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+18:28:31.336 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+18:28:31.339 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+18:28:31.339 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+18:28:31.361 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+18:28:31.362 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+18:28:31.449 [main] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+18:28:31.450 [main] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.deleteLibAfterLoading: true
+18:28:31.450 [main] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.tryPatchShadedId: true
+18:28:31.450 [main] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.detectNativeLibraryDuplicates: true
+18:28:31.496 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+18:28:31.514 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+18:28:31.526 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+18:28:31.526 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+18:28:31.556 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+18:28:31.556 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+18:28:31.580 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+18:28:31.679 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 223991 (auto-detected)
+18:28:31.687 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+18:28:31.687 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:28:31.691 [main] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+18:28:31.693 [main] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+18:28:31.694 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 98:e0:d9:ff:fe:95:74:87 (auto-detected)
+18:28:31.732 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+18:28:31.732 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+18:28:31.815 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+18:28:31.815 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+18:28:31.815 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+18:28:31.815 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+18:28:31.816 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+18:28:31.844 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:28:31.844 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:28:31.844 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:28:31.910 [DefaultDispatcher-worker-1] INFO ktor.application - Responding at http://0.0.0.0:47860
+18:45:16.693 [eventLoopGroupProxy-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:45:16.695 [eventLoopGroupProxy-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:45:16.702 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2a22e5ad
+18:45:17.114 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:45:17.114 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:45:17.115 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+18:45:17.115 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+18:45:17.115 [eventLoopGroupProxy-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+18:45:17.618 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - Deleting leftover folder: /tmp/nativelib-loader_16203166127001601440
+18:45:17.620 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - Deleting leftover folder: /tmp/nativelib-loader_16471143394572784587
+18:45:17.677 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.NativeLibraryUtil - processor is INTEL_64 os.arch is amd64
+18:45:17.678 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.NativeLibraryUtil - architecture is LINUX_64 os.name is linux
+18:45:17.678 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.NativeLibraryUtil - architecture is LINUX_64 os.name is linux
+18:45:17.678 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.NativeLibraryUtil - platform specific path is natives/linux_64/
+18:45:17.678 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - mappedLib is libunicorn.so
+18:45:17.684 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - URL is jar:file:/home/yuchuxi/project/%e5%a2%a8%e5%ad%90/unidbg-fetch-qsign-1.1.7/lib/unidbg-1.0.2.jar!/natives/linux_64/libunicorn.so
+18:45:17.684 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - URL path is file:/home/yuchuxi/project/%e5%a2%a8%e5%ad%90/unidbg-fetch-qsign-1.1.7/lib/unidbg-1.0.2.jar!/natives/linux_64/libunicorn.so
+18:45:17.686 [eventLoopGroupProxy-4-1] DEBUG org.scijava.nativelib.BaseJniExtractor - Extracting 'jar:file:/home/yuchuxi/project/%e5%a2%a8%e5%ad%90/unidbg-fetch-qsign-1.1.7/lib/unidbg-1.0.2.jar!/natives/linux_64/libunicorn.so' to '/tmp/nativelib-loader_17932547979842896542/libunicorn.so'
+clock_gettime clk_id=1, tp=unidbg@0xbffff1f8, offset=3439035523, tv_sec=3, tv_nsec=439035523
+clock_gettime clk_id=1, tp=unidbg@0xbffff1f8, offset=3461660813, tv_sec=3, tv_nsec=461660813
+[FEKit_]info: device_token_entry.h:88 initUin 3380643076
+clock_gettime clk_id=1, tp=RW@0x40e03b68, offset=3672039178, tv_sec=3, tv_nsec=672039178
+[FEKit_]info: device_info.h:586 start create xwid
+clock_gettime clk_id=1, tp=RW@0x40e03348, offset=3775123213, tv_sec=3, tv_nsec=775123213
+clock_gettime clk_id=3, tp=RW@0x40e00a10, offset=3986773688, tv_sec=3, tv_nsec=986773688
+clock_gettime clk_id=1, tp=RW@0x40e03348, offset=4037426966, tv_sec=4, tv_nsec=37426966
+[FEKit_]info: device_info.h:613 create xwid complete
+[FEKit_]error: device_token_storage.h:53 write file error
+clock_gettime clk_id=1, tp=RW@0x40e03b68, offset=4090446988, tv_sec=4, tv_nsec=90446988
+[FEKit_]info: device_token.h:345 create new xwId complete
+clock_gettime clk_id=1, tp=unidbg@0xbfffd528, offset=10616207287, tv_sec=10, tv_nsec=616207287
+clock_gettime clk_id=1, tp=unidbg@0xbfffd508, offset=10936398049, tv_sec=10, tv_nsec=936398049
+7月 28, 2023 6:45:28 下午 moe.fuqiuluo.unidbg.env.FileResolver resolve
+警告: Couldn't find file: /data/app/~~vbcRLwPxS0GyVfqT-nCYrQ==/com.tencent.mobileqq-xJKJPVp9lorkCgR_w5zhyA==/base.apk
+[FEKit_]error: o3_channel_encrypt.h:275 gen new channel
+FEBound.transform(eeb5537529dd58444604bce4e46618bba22ddaf1c5fa79150ba9cfef376dbee4) => 90fad9aa73b58304ae04fe0073602bc97de4aa82df46da7b5d12a20cf064d682
+[FEKit_]error: o3_channel_encrypt.h:491 est check: 2e0b79b1476c58ee4c502b3db04629e0a3a1b68edf8e0e22951d7a5002d81aa0bc0f0783f18d7f72df0a0d290deb34f2
+[FEKit_]error: ChannelManager.cpp:73 o3cm@S: GetSecConf, trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+uin = 3380643076, id = 0, sendPacket(cmd = trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish, data = 0a0a476574536563436f6e6612210274ec6de64f330cd59d5fa37a3cad70fac853bb69014f2b0304fa6be0463eb2af22423833633536323337366539323963626161353837383730666262373264386337663363666539373731646631343830386562333061613931373932336664643563652a492bed374396ff548aad43d28f95e322ef1f6def738b6bd4dbf51f20605e910dc4e536709c72d176521cd602bd7c15fb290bc105250ab9350af3728c64171e6e4898b50579229fde5ace32209469c8aed81dc1a108df9096b02bf2e3aa99bc41504a6e4a7bb705fa3bb9d0c23a302e0b79b1476c58ee4c502b3db04629e0a3a1b68edf8e0e22951d7a5002d81aa0bc0f0783f18d7f72df0a0d290deb34f24001)
+[FEKit_]error: o3_channel_encrypt.h:442 ecdh repeat establish
+FEBound.transform(c0bc76b8f8ee3b54fa6e419f8949c9eb84b8940f8032f6da0f8f09c9c6f101ce) => ecfd8b5b468f356434483d8c853c4a89bef063f6286c67cc5b91bf9dda4e6976
+[FEKit_]error: o3_channel_encrypt.h:491 est check: 4042d5906c5801efdfdb5c0b3697500b2667d7c30b729e8bf7205db1350235f543fe9bf615aae4265fadf677b22a1d65
+[FEKit_]error: ChannelManager.cpp:73 o3cm@S: O3GetTail, trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+uin = 3380643076, id = 1, sendPacket(cmd = trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish, data = 0a094f334765745461696c12210274ec6de64f330cd59d5fa37a3cad70fac853bb69014f2b0304fa6be0463eb2af22423833633536323337366539323963626161353837383730666262373264386337663363666539373731646631343830386562333061613931373932336664643563652a49895fa041a0d0bc9909294731c7b9c05e6a7948088e6db68556397862edea707b47f793317096e178e45e7ab3f299de509ed280df7b5d80c5a1ed1a8cba411a1a0e10cbc81be0ce2fac32209469c8aed81dc1a108df9096b02bf2e3aa99bc41504a6e4a7bb705fa3bb9d0c23a304042d5906c5801efdfdb5c0b3697500b2667d7c30b729e8bf7205db1350235f543fe9bf615aae4265fadf677b22a1d654001)
+[FEKit_]error: device_info.h:178 jniGetAppVersionName:8.9.68
+[FEKit_]info: device_info.h:538 538
+[FEKit_]info: device_info.h:540 540
+[FEKit_]info: device_info.h:542 542
+[FEKit_]info: device_token.h:235 begin pack
+[FEKit_]info: device_token.h:237 pack buff result len:1180
+[FEKit_]info: device_token.h:252 begin sendmessage : len :1180
+[FEKit_]error: o3_channel_encrypt.h:442 ecdh repeat establish
+FEBound.transform(2c9f6c9f6c6b923efcaf2b8e1426fb299150623d1361399abaea190c9d23cb7e) => db8c71d6f1e34019371145c8e3d00068c11770e962e73a8c04667f522cda4036
+[FEKit_]error: o3_channel_encrypt.h:491 est check: 3934157463ecdcba93dc4b818b1152410fbb8409ecc610f80afec831a90f3302d71871b4227d0955243b4a0f49228245
+[FEKit_]error: ChannelManager.cpp:73 o3cm@S: getToken, trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+uin = 3380643076, id = 2, sendPacket(cmd = trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish, data = 0a08676574546f6b656e12210274ec6de64f330cd59d5fa37a3cad70fac853bb69014f2b0304fa6be0463eb2af22423833633536323337366539323963626161353837383730666262373264386337663363666539373731646631343830386562333061613931373932336664643563652ae80936c956d5ca99cb6272c791ed7d41b0c7a0c2820a011dd7e0a3e80c05e60321bf31d9e46bf733fcf784fa7e067c13eacc236d8a420669ebf6084f68df2383684b1e5c4a3c7ba265d0241a45000e3f1932bcd7d7bf6a535c38e8c30c5d5ded013a25e26768fdc466c7d03235c1cc10fc2745bd273fd46a235ffe6434d2c34c23e59d2421f1ce5a186da61a2071b54ec80b998a5ce962f96bac8dae2fc8b6cb2841b281066057ce23e8f25e9f6c86b089a02ab2441b1dc18e2fc18cff4f237ec6967c681b655d0bf3033ebf7d5e41d9b6c0d9c070ac6bb23abf7f58aaad6096d5aaff70da654dfe6acdd3d8ee6dbbf1a2cad4fcb2e832bc6d9fd7642666fe708a463a45815b13ea4eacffefc2d9033869fe9631d425c2ea6febfd77db8e043fc1d75c6d5b32762cd78f421f60c3f68f22c08752f4336a259890a589002ce4555f08d618a113fb0890f4360eff2885bcb4929b17456d3b9f825a3b914d50b3f62d59ef3d7dbb316ad8cf1499ea0c4de50c855e282d2a17b8c04cb29b7d6905a6d8112f42a705acd96db24ecfb59164899e88f4b16128869c10c5a4fab7d01a8c367915b965694b54f4af2525aebb7e121c8bb0b9f0f07b973757ea125c197220185189b577787e0ff651ac0fdd2a558f76521bf5ac192bc58fe12885ccae28cfd8f90f8e9d2299330a8be19d4d749fb5a9738d9d31d4ab1377eac723eab91b4d9d145c3b708492171e74f70c44a64b3e080156f4eb76bc9ae51242603b55bf9157b797b8b1fba51585e0c8521f477c8123432fafbd6ad208e487b486f5493d44f8fc1ff85dd92afa82de3f95ccc42612010c8ec9e15e7772efb447be55c2a5070bfd611736a9399a66e2c2cccb09659435356820918b6782e1c843d8f9a5b2de4e9a6dc3ec2cdb090b6b60cf7afff35daa8b50070c55b26be0c67ad516681dee9b7bb8a72f674b0bddb693e5bb683689c987e7dd0684a7bc3bf9d7aacbfa33a1066f02eae03887fdeebbada5c0dcad06f51a7139de42084034925e08d67592ae6628971233d0085d963cc798da0f6c7fc30a1c38751d4be6fd3088e12063a08c91a364cd845a812f278fc9697e1a229a0ef845e53b1df4429be7595a4a1eddd3fa4ff85dc142e88568f3c4de534b07807da64814fce8ffb1780d04413e9af62f8673ffef48c29af30676cd40cd7472a4ec7c73d8d2c4dda7f230df87f375edc6689e02c4450a9e37643c9eedac78728bee28d00352d0ecb7047d1f9233b5a104b17f5ee0a5bd36cd19c13b02ed87968f01267ae579a8ab2893d7f63eaa18affabcb190de8a2b4827479efa4780cf77a5b8dce940582cccf1521a6d489ae581d08c49358bb013e796c600016e9583952598d22cc99d509130b28a87f1dd0654c4c39c80e468ad11b4ad17e78007aab23f663a82b268a8cd114755b50a744933ae830c49d40602a2c13192126fcb0f4d2ed11e0264bbd0f835d0cd0fbd11db49c4ab5ce93029c9b83d479405a2c6629432a146b405f683f32c6450db66ed3375f2f01770b3c29b56ebddab0b204a6e5288ec71ee66ab27a6d988992276bb1a46f3f4b6eebe21c4e9ef767816d629588906159fc6de444fff913252d2ea9f459828deb9145a393828dd7f5c262158b1eb4e6fb04a66abe173bedf3263195758e692e5245265941d9839cb94469b17a694d31488a83e84ba719752b760185efa944329c18d5d9baff94d017bf63dc08bc7652f5472ffb4279109390807ccd0794fe419b9ae1b29beccaa6a7232209469c8aed81dc1a108df9096b02bf2e3aa99bc41504a6e4a7bb705fa3bb9d0c23a303934157463ecdcba93dc4b818b1152410fbb8409ecc610f80afec831a90f3302d71871b4227d0955243b4a0f492282454001)
+[FEKit_]info: qq_sign.h:142 [GetSign] cmd:wtlogin.exchange_emp
+clock_gettime clk_id=0, tp=unidbg@0xbfffe4a8, offset=1690541139660000000, tv_sec=1690541139, tv_nsec=660000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffe478, offset=1690541139684000000, tv_sec=1690541139, tv_nsec=684000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffe478, offset=1690541139724000000, tv_sec=1690541139, tv_nsec=724000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffcb98, offset=1690541139963000000, tv_sec=1690541139, tv_nsec=963000000
+clock_gettime clk_id=1, tp=unidbg@0xbfffb4c8, offset=22011740147, tv_sec=22, tv_nsec=11740147
+clock_gettime clk_id=1, tp=unidbg@0xbfffb4b8, offset=22022871306, tv_sec=22, tv_nsec=22871306
+FEBound.transform(109c0103000000000200030000c70303ae32e2d6f2c81c86e099bd68adb50609a3000000004865726f) => ac8d55f1a8520da7560dbb530d2664077002c04444fdbfef7272f7119cf3610874a752fda80deed54b
+[FEKit_]info: ChannelManager.cpp:98 origin cmd:GetSecConf ,cmd:trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+[FEKit_]error: ChannelManager.cpp:101 [ChannelManager:OnReceive] success:1 cmd:trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish bcmd:GetSecConf
+[FEKit_]error: o3_channel_encrypt.h:544 ESK pb de failed
+[FEKit_]error: ChannelManager.cpp:148 [ChannelManager:OnReceive] cryptError 1
+[FEKit_]error: dynamic_config_manager.h:33 get SecConfig failed
+[FEKit_]info: qq_sign.h:142 [GetSign] cmd:OidbSvc.0x88d_0
+clock_gettime clk_id=0, tp=unidbg@0xbfffe4a8, offset=1690541141342000000, tv_sec=1690541141, tv_nsec=342000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffe478, offset=1690541141369000000, tv_sec=1690541141, tv_nsec=369000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffe478, offset=1690541141405000000, tv_sec=1690541141, tv_nsec=405000000
+clock_gettime clk_id=0, tp=unidbg@0xbfffcb98, offset=1690541141977000000, tv_sec=1690541141, tv_nsec=977000000
+clock_gettime clk_id=1, tp=unidbg@0xbfffb4c8, offset=24025774083, tv_sec=24, tv_nsec=25774083
+clock_gettime clk_id=1, tp=unidbg@0xbfffb4b8, offset=24036772479, tv_sec=24, tv_nsec=36772479
+FEBound.transform(40d14c05d140509674a109e1e19fc8362d48c026e2d60103000000000000030000000000004865726f) => 0c6b41faea028d8ff113bf0774024bebd290926404b401ad520db8530db8640dfca752fda80deed54b
+[FEKit_]info: ChannelManager.cpp:98 origin cmd:O3GetTail ,cmd:trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+[FEKit_]error: ChannelManager.cpp:101 [ChannelManager:OnReceive] success:1 cmd:trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish bcmd:O3GetTail
+[FEKit_]error: o3_channel_encrypt.h:579 dec non-zero retcode: 33
+[FEKit_]error: o3_channel_encrypt.h:204 channel reset
+[FEKit_]error: ChannelManager.cpp:148 [ChannelManager:OnReceive] cryptError 2000
+[FEKit_]error: sign_tail_manager.h:79 get tail success 0, retCode 2000
+java: /home/zhkl0228/git/unicorn/qemu/memory.c:1329：memory_region_del_subregion_aarch64: 假设 ‘subregion->container == mr’ 失败。
+JVMDUMP039I 正在处理转储事件“abort”，详细信息“”，位于 2023/07/28 18:45:47 - 请稍候。
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/core.20230728.184547.223991.0001.dmp”来请求 System 转储以响应事件
+7月 28, 2023 6:45:47 下午 com.github.unidbg.linux.ARM64SyscallHandler hook
+警告: handleInterrupt intno=2, NR=-128160, svcNumber=0x1ad, PC=unidbg@0xfffe0b64, LR=RX@0x404df280[libfekit.so]0x15f280, syscall=null
+com.github.unidbg.arm.backend.BackendException: mem_write address=0x4002d000
+	at com.github.unidbg.arm.backend.Unicorn2Backend.mem_write(Unicorn2Backend.java:129)
+	at com.github.unidbg.pointer.UnidbgPointer.write(UnidbgPointer.java:180)
+	at com.github.unidbg.linux.android.dvm.array.ByteArray._GetArrayCritical(ByteArray.java:34)
+	at com.github.unidbg.linux.android.dvm.DalvikVM64$174.handle(DalvikVM64.java:2726)
+	at com.github.unidbg.linux.ARM64SyscallHandler.hook(ARM64SyscallHandler.java:119)
+	at com.github.unidbg.arm.backend.Unicorn2Backend$11.hook(Unicorn2Backend.java:347)
+	at com.github.unidbg.arm.backend.unicorn.Unicorn$NewHook.onInterrupt(Unicorn.java:109)
+	at com.github.unidbg.arm.backend.unicorn.Unicorn.emu_start(Native Method)
+	at com.github.unidbg.arm.backend.unicorn.Unicorn.emu_start(Unicorn.java:312)
+	at com.github.unidbg.arm.backend.Unicorn2Backend.emu_start(Unicorn2Backend.java:384)
+	at com.github.unidbg.AbstractEmulator.emulate(AbstractEmulator.java:380)
+	at com.github.unidbg.thread.Function64.run(Function64.java:39)
+	at com.github.unidbg.thread.MainTask.dispatch(MainTask.java:19)
+	at com.github.unidbg.thread.UniThreadDispatcher.run(UniThreadDispatcher.java:175)
+	at com.github.unidbg.thread.UniThreadDispatcher.runMainForResult(UniThreadDispatcher.java:99)
+	at com.github.unidbg.AbstractEmulator.runMainForResult(AbstractEmulator.java:340)
+	at com.github.unidbg.arm.AbstractARM64Emulator.eFunc(AbstractARM64Emulator.java:262)
+	at com.github.unidbg.Module.emulateFunction(Module.java:163)
+	at com.github.unidbg.linux.android.dvm.DvmObject.callJniMethod(DvmObject.java:135)
+	at com.github.unidbg.linux.android.dvm.DvmObject.callJniMethodObject(DvmObject.java:93)
+	at com.tencent.mobileqq.sign.QQSecuritySign.getSign(QQSecuritySign.kt:48)
+	at com.tencent.mobileqq.sign.QQSecuritySign.getSign$default(QQSecuritySign.kt:46)
+	at moe.fuqiuluo.api.QsignKt.requestSign(qsign.kt:94)
+	at moe.fuqiuluo.api.QsignKt.access$requestSign(qsign.kt:1)
+	at moe.fuqiuluo.api.QsignKt$requestSign$1.invokeSuspend(qsign.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda$1$lambda$0(NettyApplicationEngine.kt:296)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:839)
+Caused by: unicorn.UnicornException: Invalid memory write (UC_ERR_WRITE_UNMAPPED)
+	at com.github.unidbg.arm.backend.unicorn.Unicorn.mem_write(Native Method)
+	at com.github.unidbg.arm.backend.unicorn.Unicorn.mem_write(Unicorn.java:223)
+	at com.github.unidbg.arm.backend.Unicorn2Backend.mem_write(Unicorn2Backend.java:127)
+	... 35 more
+
+7月 28, 2023 6:45:47 下午 com.github.unidbg.AbstractEmulator handleEmuException
+警告: emulate RX@0x404d27b4[libfekit.so]0x1527b4 exception sp=unidbg@0xbfffecc0, msg=mem_write address=0x4002d000, offset=131ms
+Unhandled exception
+Type=Segmentation error vmState=0x00040000
+J9Generic_Signal_Number=00000018 Signal_Number=0000000b Error_Value=00000000 Signal_Code=00000080
+Handler1=00007FB367A3FC80 Handler2=00007FB36C22A8A0 InaccessibleAddress=0000000000000000
+RDI=64593ED9BADBAD21 RSI=6A2F7463656C6665 RAX=6A2F7463656C6665 RBX=00000000000001C0
+RCX=0000000000000200 RDX=6A2F7463656C6665 R8=00007FB2AC008660 R9=0000000000000000
+R10=00007FB2AC060190 R11=CBFA93A947DDFCD0 R12=0000000000A91C00 R13=00007FB2D40FD540
+R14=0000000000A98360 R15=00007FB367BDA5F4
+RIP=00007FB309E2E7CC GS=0000 FS=0000 RSP=00007FB3666BA1B0
+EFlags=0000000000010206 CS=0033 RBP=00007FB3666BA1D0 ERR=0000000000000000
+TRAPNO=000000000000000D OLDMASK=0000000000000000 CR2=0000000000000000
+xmm0 00007fb2ac00e380 (f: 2885739520.000000, d: 6.936947e-310)
+xmm1 00007fb2ac000180 (f: 2885681664.000000, d: 6.936947e-310)
+xmm2 00007fb2b40007e0 (f: 3019900928.000000, d: 6.936953e-310)
+xmm3 0000000073654465 (f: 1936016512.000000, d: 9.565192e-315)
+xmm4 dddddd00796f7274 (f: 2037346944.000000, d: -1.456651e+144)
+xmm5 ffffffffffffffff (f: 4294967296.000000, d: -nan)
+xmm6 ffffffffffffffff (f: 4294967296.000000, d: -nan)
+xmm7 ffffffffffffffff (f: 4294967296.000000, d: -nan)
+xmm8 746972775f6d656d (f: 1601004928.000000, d: 5.830224e+252)
+xmm9 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+xmm10 2000202000000000 (f: 0.000000, d: 1.503367e-154)
+xmm11 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+xmm12 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+xmm13 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+xmm14 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+xmm15 0000000000000000 (f: 0.000000, d: 0.000000e+00)
+Module=/tmp/nativelib-loader_17932547979842896542/libunicorn.so
+Module_base_address=00007FB309E00000
+Target=2_90_20221031_559 (Linux 5.19.0-50-generic)
+CPU=amd64 (4 logical CPUs) (0xee5dd000 RAM)
+----------- Stack Backtrace -----------
+object_unref+0x2a (0x00007FB309E2E7CC [libunicorn.so+0x2e7cc])
+memory_region_unref_aarch64+0x55 (0x00007FB309EFD96F [libunicorn.so+0xfd96f])
+flatview_destroy_aarch64+0x56 (0x00007FB309EFA5B1 [libunicorn.so+0xfa5b1])
+flatview_unref_aarch64+0x39 (0x00007FB309EFA66C [libunicorn.so+0xfa66c])
+address_space_destroy_aarch64+0x105 (0x00007FB309EFF5E2 [libunicorn.so+0xff5e2])
+release_common+0xe2 (0x00007FB309E34433 [libunicorn.so+0x34433])
+arm64_release_aarch64+0xac (0x00007FB309E346ED [libunicorn.so+0x346ed])
+uc_close+0x46 (0x00007FB309E268BB [libunicorn.so+0x268bb])
+Java_com_github_unidbg_arm_backend_unicorn_Unicorn_nativeDestroy+0x4f (0x00007FB309E2495F [libunicorn.so+0x2495f])
+ffi_call_unix64+0x52 (0x00007FB367BB0B0A [libj9vm29.so+0x1b0b0a])
+ffi_call_int+0x1fc (0x00007FB367BAEDEC [libj9vm29.so+0x1aedec])
+_ZN32VM_BytecodeInterpreterCompressed3runEP10J9VMThread+0xfaec (0x00007FB367AA1F0C [libj9vm29.so+0xa1f0c])
+bytecodeLoopCompressed+0xad (0x00007FB367A9240D [libj9vm29.so+0x9240d])
+ (0x00007FB367B3D9A2 [libj9vm29.so+0x13d9a2])
+---------------------------------------
+JVMDUMP039I 正在处理转储事件“gpf”，详细信息“”，位于 2023/07/28 18:45:47 - 请稍候。
+clock_gettime clk_id=1, tp=unidbg@0xbffff1f8, offset=2897075347, tv_sec=2, tv_nsec=897075347
+clock_gettime clk_id=1, tp=unidbg@0xbffff1f8, offset=2916979337, tv_sec=2, tv_nsec=916979337
+[FEKit_]info: device_token_entry.h:88 initUin 3380643076
+clock_gettime clk_id=1, tp=RW@0x40e03b68, offset=3040441687, tv_sec=3, tv_nsec=40441687
+[FEKit_]info: device_info.h:586 start create xwid
+clock_gettime clk_id=1, tp=RW@0x40e03348, offset=3154858220, tv_sec=3, tv_nsec=154858220
+clock_gettime clk_id=3, tp=RW@0x40e00a10, offset=3464586642, tv_sec=3, tv_nsec=464586642
+clock_gettime clk_id=1, tp=RW@0x40e03348, offset=3521112889, tv_sec=3, tv_nsec=521112889
+[FEKit_]info: device_info.h:613 create xwid complete
+[FEKit_]error: device_token_storage.h:53 write file error
+clock_gettime clk_id=1, tp=RW@0x40e03b68, offset=3572128410, tv_sec=3, tv_nsec=572128410
+[FEKit_]info: device_token.h:345 create new xwId complete
+JVMPORT030W /proc/sys/kernel/core_pattern 设置“|/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E”指定将核心转储输送到外部程序。正在尝试重命名 core 或 core.225984。
+
+clock_gettime clk_id=1, tp=unidbg@0xbfffd528, offset=10391795297, tv_sec=10, tv_nsec=391795297
+clock_gettime clk_id=1, tp=unidbg@0xbfffd508, offset=10709485781, tv_sec=10, tv_nsec=709485781
+7月 28, 2023 6:45:58 下午 moe.fuqiuluo.unidbg.env.FileResolver resolve
+警告: Couldn't find file: /data/app/~~vbcRLwPxS0GyVfqT-nCYrQ==/com.tencent.mobileqq-xJKJPVp9lorkCgR_w5zhyA==/base.apk
+JVMDUMP012E System 转储中存在错误：The core file created by child process with pid = 225984 was not found. Expected to find core file with name "/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/core.225984"
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/javacore.20230728.184547.223991.0003.txt”来请求 Java 转储以响应事件
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/core.20230728.184547.223991.0002.dmp”来请求 System 转储以响应事件
+JVMDUMP010I Java 转储已写入 /home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/javacore.20230728.184547.223991.0003.txt
+[FEKit_]error: o3_channel_encrypt.h:275 gen new channel
+FEBound.transform(91618466b659b00cf3b8f46a44c14b4a9b7fc1d5974cd31355f2d285f227835f) => c17b3304cc2bfda33525141bb32ef0b1c74c954a57002c7de3f780c548d6942f
+[FEKit_]error: o3_channel_encrypt.h:491 est check: 6cd35530d3125dd202b5341ac4786441eb72d789b869bae691d42eccac26fc8a275b835e58d20ec8632eaa9a2ce56282
+[FEKit_]error: ChannelManager.cpp:73 o3cm@S: GetSecConf, trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+uin = 3380643076, id = 0, sendPacket(cmd = trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish, data = 0a0a476574536563436f6e661221027527c364a2f72fae4dd5e7a2ea49f730004361c3b7399183f5537e83a701b50e22423833633536323337366539323963626161353837383730666262373264386337663363666539373731646631343830386562333061613931373932336664643563652a487813f670f60816a541a778b5edce943b7fbc569a82b2b850770f42ade7a473b873d1ee5fbe41d42cf58a00fea2dfaa903b679ffc3dd2ddf4861b0ee66eb278bfc4fd734373d7dd95322001941e24d3b6ba6ad81d5ab59127b4fd9d1c12c3c2651d91ad071d186d0e0aa93a306cd35530d3125dd202b5341ac4786441eb72d789b869bae691d42eccac26fc8a275b835e58d20ec8632eaa9a2ce562824001)
+[FEKit_]error: o3_channel_encrypt.h:442 ecdh repeat establish
+FEBound.transform(7ba2e2be67e02040cbfc9b608f956a69ecc64c187965f3289bb1047ed0f145bb) => 1732c055f7829d07ddfe95138b035c189bc141cb13ea6c588d23b4f85d4ef8c9
+[FEKit_]error: o3_channel_encrypt.h:491 est check: aa71ed8ba2550fb0b2f65223ebbcec67fc68b349732cea68ecfbed9d79c35982a2e7b293dc5e9e0aaf8343239be5c934
+[FEKit_]error: ChannelManager.cpp:73 o3cm@S: O3GetTail, trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish
+uin = 3380643076, id = 1, sendPacket(cmd = trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish, data = 0a094f334765745461696c1221027527c364a2f72fae4dd5e7a2ea49f730004361c3b7399183f5537e83a701b50e22423833633536323337366539323963626161353837383730666262373264386337663363666539373731646631343830386562333061613931373932336664643563652a48aee6baf5cce33480b719dcf52f011af0351bf52d810ae40856f314d6236dfb57892ea4e7538de90637215f8b207fe902d4b3bc704f66efa9b6f82eb75f560837714984612c7023c5322001941e24d3b6ba6ad81d5ab59127b4fd9d1c12c3c2651d91ad071d186d0e0aa93a30aa71ed8ba2550fb0b2f65223ebbcec67fc68b349732cea68ecfbed9d79c35982a2e7b293dc5e9e0aaf8343239be5c9344001)
+JVMPORT030W /proc/sys/kernel/core_pattern 设置“|/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E”指定将核心转储输送到外部程序。正在尝试重命名 core 或 core.225994。
+
+JVMDUMP012E System 转储中存在错误：The core file created by child process with pid = 225994 was not found. Expected to find core file with name "/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/core.225994"
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/javacore.20230728.184547.223991.0005.txt”来请求 Java 转储以响应事件
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/Snap.20230728.184547.223991.0004.trc”来请求 Snap 转储以响应事件
+JVMDUMP010I Snap 转储已写入 /home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/Snap.20230728.184547.223991.0004.trc
+JVMDUMP032I JVM 使用“/home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/jitdump.20230728.184547.223991.0006.dmp”来请求 JIT 转储以响应事件
+JVMDUMP051I JIT 转储出现在 'eventLoopGroupProxy-4-1' 线程 0x00000000007FF500 中
+JVMDUMP010I JIT 转储已写入 /home/yuchuxi/project/墨子/unidbg-fetch-qsign-1.1.7/jitdump.20230728.184547.223991.0006.dmp
+JVMDUMP013I 已处理转储事件“abort”，详细信息：“”。
